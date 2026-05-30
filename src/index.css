@@ -8,3 +8,27 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
+
+.slider-track {
+  display: flex;
+  min-width: 200%;
+  animation: slide-left 18s linear infinite;
+  animation-play-state: running;
+}
+
+.slider-track:hover {
+  animation-play-state: paused;
+}
+
+.slider-slow {
+  animation-duration: 26s;
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

@@ -14,27 +14,32 @@ const MyResumeNavbar = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    const href = e.target.getAttribute("href");
+    const anchor = e.target.closest("a");
+    if (!anchor) return;
+
+    const href = anchor.getAttribute("href");
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const offset = -150; // scroll slightly above the section
+      const top = element.getBoundingClientRect().top + window.pageYOffset + offset;
+      window.scrollTo({ top, behavior: "smooth" });
       setIsOpen(false);
     }
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-slate-900 text-white shadow-lg">
+    <nav className="sticky top-0 z-50 bg-[#1e293b] text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-center">
           
           {/* LOGO */}
-          <a 
+          {/* <a 
             href="#profile"
             onClick={handleClick}
             className="text-3xl font-bold text-cyan-400 cursor-pointer hover:text-cyan-300 transition ml-8"
           >
             Kishor Jadhav
-          </a>
+          </a> */}
 
           {/* DESKTOP MENU */}
           <div className="hidden md:flex gap-8">
