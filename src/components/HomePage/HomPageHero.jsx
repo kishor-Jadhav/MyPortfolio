@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 
 import kkImage from "../../assets/kk.jpg"
+import kkResume from "../../assets/Kishor Jadhav.pdf"
 const HomPageHero = () => {
   return (
     <>
@@ -48,7 +49,9 @@ const HomPageHero = () => {
 
               <button className="border border-cyan-500 text-cyan-400 px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-cyan-500 hover:text-black transition">
                 <FaDownload />
-                Resume
+                <a href={kkResume} download className="text-lg font-semibold">
+                  Resume
+                </a>
               </button>
 
             </div>
