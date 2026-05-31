@@ -32,7 +32,7 @@ const HomPageHero = () => {
               </h3>
 
               <p className="text-slate-300 mt-4 leading-7">
-                Senior UI Developer & Tech Lead with 12+ years of experience
+                Senior UI Developer & Tech Lead with 10+ years of experience
                 delivering enterprise-scale web applications using Angular,
                 React, TypeScript, Spring Boot, and SQL technologies. Proven
                 expertise in application modernization, performance optimization,

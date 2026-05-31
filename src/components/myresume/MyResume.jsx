@@ -205,7 +205,7 @@ const MyResume = () => {
 
                   <div className="flex flex-col md:flex-row md:justify-between mb-2">
                     <div>
-                      <h3 className="text-3xl font-bold">
+                      <h3 className="text-2xl font-bold">
                         Lead UI Developer
                       </h3>
 
@@ -260,7 +260,7 @@ const MyResume = () => {
 
                   <div className="flex flex-col md:flex-row md:justify-between mb-2">
                     <div>
-                      <h3 className="text-3xl font-bold">
+                      <h3 className="text-2xl font-bold">
                         Founder / Sr. Software Engineer
                       </h3>
 
@@ -308,7 +308,7 @@ const MyResume = () => {
 
                   <div className="flex flex-col md:flex-row md:justify-between mb-2">
                     <div>
-                      <h3 className="text-3xl font-bold">
+                      <h3 className="text-2xl font-bold">
                         Software Engineer
                       </h3>
 
@@ -352,7 +352,7 @@ const MyResume = () => {
 
                   <div className="flex flex-col md:flex-row md:justify-between mb-2">
                     <div>
-                      <h3 className="text-3xl font-bold">
+                      <h3 className="text-2xl font-bold">
                         Software Developer
                       </h3>
 
@@ -395,14 +395,14 @@ const MyResume = () => {
 
               {/* PROJECTS */}
               <section id="projects" className="mt-20">
-                <h2 className="text-3xl font-bold uppercase mb-10">
+                <h2 className="text-2xl font-bold uppercase mb-10">
                   Key Projects
                 </h2>
 
                 <div className="space-y-10 text-lg text-gray-700 leading-9">
 
                   <div>
-                    <h3 className="text-2xl font-bold mb-3">
+                    <h3 className="text-1xl font-bold mb-3">
                       ERP Reporting with JasperReports
                     </h3>
 
@@ -414,7 +414,7 @@ const MyResume = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-2xl font-bold mb-3">
+                    <h3 className="text-1xl font-bold mb-3">
                       Customer Analytics Dashboard
                     </h3>
 
@@ -426,7 +426,7 @@ const MyResume = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-2xl font-bold mb-3">
+                    <h3 className="text-1xl font-bold mb-3">
                       Inventory Management System
                     </h3>
 
@@ -442,14 +442,14 @@ const MyResume = () => {
 
               {/* EDUCATION */}
               <section id="education" className="mt-20">
-                <h2 className="text-3xl font-bold uppercase mb-10">
+                <h2 className="text-2xl font-bold uppercase mb-10">
                   Education
                 </h2>
 
                 <div className="space-y-10">
 
                   <div>
-                    <h3 className="text-3xl font-bold">
+                    <h3 className="text-2xl font-bold">
                       M.Tech – Data Science
                     </h3>
 
@@ -459,7 +459,7 @@ const MyResume = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-3xl font-bold">
+                    <h3 className="text-2xl font-bold">
                       B.E – Computer Science
                     </h3>
 
