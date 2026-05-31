@@ -8,8 +8,7 @@ const techCategories = [
       "JavaScript",
       "RxJS",
       "NgRx",
-      "Redux",
-      "Tailwind CSS",
+      "Redux",      
       "Bootstrap",
       "PrimeNG",
       "Kendo UI",
@@ -35,8 +34,7 @@ const techCategories = [
   },
   {
     category: "Cloud & DevOps",
-    skills: [
-      "AWS",
+    skills: [      
       "Git",
       "GitHub",
       "CI/CD",
@@ -48,8 +46,8 @@ const techCategories = [
     skills: [
       "Data Science",
       "Machine Learning",
-      "TensorFlow",
-      "Data Visualization",
+      "Python",
+      "Data Analytics",
     ],
   },
 ];
@@ -71,7 +69,7 @@ const TechnologiesExp = () => {
             A diverse technology portfolio spanning modern front-end
             frameworks, enterprise application development, cloud
             technologies, database systems, and data-driven solutions built
-            over 12+ years of professional experience.
+            over 10+ years of professional experience.
           </p>
         </div>
 
@@ -101,7 +99,11 @@ const TechnologiesExp = () => {
         </div>
 
         {/* Experience Summary */}
-        
+        <div className="mt-16 max-w-3xl">
+          <p className="text-slate-400">
+            With over 10+ years of professional experience, I have developed a strong foundation in both frontend and backend technologies, enabling me to deliver robust and scalable solutions.
+          </p>
+        </div>
       </div>
     </section>
   );
