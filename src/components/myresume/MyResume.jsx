@@ -6,7 +6,7 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import MyResumeNavbar from "./MyResumeNavbar";
-
+import kkImage from "../../assets/kk.jpg"
 const MyResume = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const MyResume = () => {
             {/* PROFILE IMAGE */}
             <div className="flex justify-center">
               <img
-                src="https://i.pravatar.cc/300"
+                src={kkImage}
                 alt="profile"
                 className="w-52 h-52 rounded-full border-4 border-gray-300 object-cover"
               />

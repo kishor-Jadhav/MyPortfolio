@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 
+import kkImage from "../../assets/kk.jpg"
 const HomPageHero = () => {
   return (
     <>
@@ -66,7 +67,11 @@ const HomPageHero = () => {
             <div className="w-[350px] h-[350px] rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 p-1 shadow-2xl">
 
               <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center text-7xl font-bold">
-                KJ
+                <img
+                  src={kkImage}
+                  alt="Kishor Jadhav"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
 
             </div>

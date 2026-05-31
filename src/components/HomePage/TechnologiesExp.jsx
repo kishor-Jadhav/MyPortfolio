@@ -57,7 +57,7 @@ const techCategories = [
 const TechnologiesExp = () => {
   return (
     <section
-      id="technologies"
+      id="home-page-technologies"
       className="py-20 px-6 bg-slate-950"
     >
       <div className="max-w-7xl mx-auto">
