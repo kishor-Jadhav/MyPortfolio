@@ -1,0 +1,40 @@
+.p-accordion .p-accordion-header-link {
+  background: #0f172a !important;
+  border: 1px solid #1e293b !important;
+  color: white !important;
+  padding: 1rem 1.5rem !important;
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
+}
+.sub-accordion {
+  .p-accordion .p-accordion-header-link {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    margin: 10px !important;
+  }
+  .p-accordion .p-accordion-toggle-icon {
+    color: #fabe21 !important;
+  }
+  .p-accordion .p-accordion-content {
+    background: #020617 !important;
+    border: transparent !important;
+    color: white !important;
+  }
+}
+.p-accordion .p-accordion-content {
+  background: #020617 !important;
+  border: 1px solid #1e293b !important;
+  color: white !important;
+}
+
+.p-accordion .p-accordion-tab {
+  margin-bottom: 1rem;
+}
+
+.p-accordion .p-accordion-header-link:hover {
+  border-color: #22d3ee !important;
+}
+
+.p-accordion .p-accordion-toggle-icon {
+  color: #22d3ee !important;
+}

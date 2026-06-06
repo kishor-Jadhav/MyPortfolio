@@ -4,6 +4,7 @@ import HomPageHero from "./HomPageHero";
 import ProfessionalHighlights from "./ProfessionalHighlights";
 import TechnologiesExp from "./TechnologiesExp";
 import './HomePage.css'
+import KnowledgeHub from "../KnowledgeHub/KnowledgeHub";
 const HomePage = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const HomePage = () => {
       <HomePageEducation />
       <TechnologiesExp />
       <ProfessionalHighlights />
+       <KnowledgeHub />
       <HomePageContact />
     </>
   );
